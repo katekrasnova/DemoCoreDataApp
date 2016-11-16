@@ -14,6 +14,13 @@
 		D1F0584F1C43C53D0065854A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1F0584D1C43C53D0065854A /* CoreData.xcdatamodeld */; };
 		D1F058511C43C53D0065854A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F058501C43C53D0065854A /* Assets.xcassets */; };
 		D1F058541C43C53D0065854A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1F058521C43C53D0065854A /* LaunchScreen.storyboard */; };
+		D1F058671C480C090065854A /* ChoreLogMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0585C1C480C090065854A /* ChoreLogMO+CoreDataProperties.m */; };
+		D1F058681C480C090065854A /* ChoreLogMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F0585E1C480C090065854A /* ChoreLogMO.m */; };
+		D1F058691C480C090065854A /* PersonMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F058601C480C090065854A /* PersonMO+CoreDataProperties.m */; };
+		D1F0586A1C480C090065854A /* PersonMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F058621C480C090065854A /* PersonMO.m */; };
+		D1F0586B1C480C090065854A /* ChoreMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F058641C480C090065854A /* ChoreMO+CoreDataProperties.m */; };
+		D1F0586C1C480C090065854A /* ChoreMO.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F058661C480C090065854A /* ChoreMO.m */; };
+		D1F058721C495E7E0065854A /* PickerViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F058711C495E7E0065854A /* PickerViewHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,20 @@
 		D1F058501C43C53D0065854A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1F058531C43C53D0065854A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1F058551C43C53D0065854A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F0585B1C480C090065854A /* ChoreLogMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChoreLogMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D1F0585C1C480C090065854A /* ChoreLogMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChoreLogMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D1F0585D1C480C090065854A /* ChoreLogMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoreLogMO.h; sourceTree = "<group>"; };
+		D1F0585E1C480C090065854A /* ChoreLogMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoreLogMO.m; sourceTree = "<group>"; };
+		D1F0585F1C480C090065854A /* PersonMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersonMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D1F058601C480C090065854A /* PersonMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersonMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D1F058611C480C090065854A /* PersonMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonMO.h; sourceTree = "<group>"; };
+		D1F058621C480C090065854A /* PersonMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonMO.m; sourceTree = "<group>"; };
+		D1F058631C480C090065854A /* ChoreMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChoreMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D1F058641C480C090065854A /* ChoreMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChoreMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D1F058651C480C090065854A /* ChoreMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoreMO.h; sourceTree = "<group>"; };
+		D1F058661C480C090065854A /* ChoreMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoreMO.m; sourceTree = "<group>"; };
+		D1F058701C495E7E0065854A /* PickerViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewHelper.h; path = ../PickerViewHelper.h; sourceTree = "<group>"; };
+		D1F058711C495E7E0065854A /* PickerViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewHelper.m; path = ../PickerViewHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +65,18 @@
 		D1F058351C43C53D0065854A = {
 			isa = PBXGroup;
 			children = (
+				D1F0585B1C480C090065854A /* ChoreLogMO+CoreDataProperties.h */,
+				D1F0585C1C480C090065854A /* ChoreLogMO+CoreDataProperties.m */,
+				D1F0585D1C480C090065854A /* ChoreLogMO.h */,
+				D1F0585E1C480C090065854A /* ChoreLogMO.m */,
+				D1F0585F1C480C090065854A /* PersonMO+CoreDataProperties.h */,
+				D1F058601C480C090065854A /* PersonMO+CoreDataProperties.m */,
+				D1F058611C480C090065854A /* PersonMO.h */,
+				D1F058621C480C090065854A /* PersonMO.m */,
+				D1F058631C480C090065854A /* ChoreMO+CoreDataProperties.h */,
+				D1F058641C480C090065854A /* ChoreMO+CoreDataProperties.m */,
+				D1F058651C480C090065854A /* ChoreMO.h */,
+				D1F058661C480C090065854A /* ChoreMO.m */,
 				D1F058401C43C53D0065854A /* CoreData */,
 				D1F0583F1C43C53D0065854A /* Products */,
 			);
@@ -62,6 +95,8 @@
 			children = (
 				D1F058441C43C53D0065854A /* AppDelegate.h */,
 				D1F058451C43C53D0065854A /* AppDelegate.m */,
+				D1F058701C495E7E0065854A /* PickerViewHelper.h */,
+				D1F058711C495E7E0065854A /* PickerViewHelper.m */,
 				D1F058471C43C53D0065854A /* ViewController.h */,
 				D1F058481C43C53D0065854A /* ViewController.m */,
 				D1F0584A1C43C53D0065854A /* Main.storyboard */,
@@ -153,9 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F0586A1C480C090065854A /* PersonMO.m in Sources */,
+				D1F058691C480C090065854A /* PersonMO+CoreDataProperties.m in Sources */,
+				D1F058681C480C090065854A /* ChoreLogMO.m in Sources */,
 				D1F0584F1C43C53D0065854A /* CoreData.xcdatamodeld in Sources */,
 				D1F058491C43C53D0065854A /* ViewController.m in Sources */,
+				D1F058671C480C090065854A /* ChoreLogMO+CoreDataProperties.m in Sources */,
+				D1F058721C495E7E0065854A /* PickerViewHelper.m in Sources */,
 				D1F058461C43C53D0065854A /* AppDelegate.m in Sources */,
+				D1F0586C1C480C090065854A /* ChoreMO.m in Sources */,
+				D1F0586B1C480C090065854A /* ChoreMO+CoreDataProperties.m in Sources */,
 				D1F058431C43C53D0065854A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
